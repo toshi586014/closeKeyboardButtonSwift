@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76D08851B9FDDEE00EA44B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D08841B9FDDEE00EA44B5 /* AppDelegate.swift */; };
+		C76D08871B9FDDEE00EA44B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D08861B9FDDEE00EA44B5 /* ViewController.swift */; };
+		C76D088A1B9FDDEE00EA44B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76D08881B9FDDEE00EA44B5 /* Main.storyboard */; };
+		C76D088C1B9FDDEE00EA44B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76D088B1B9FDDEE00EA44B5 /* Images.xcassets */; };
+		C76D088F1B9FDDEE00EA44B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76D088D1B9FDDEE00EA44B5 /* LaunchScreen.xib */; };
+		C76D089B1B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D089A1B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76D08951B9FDDEE00EA44B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76D08771B9FDDEE00EA44B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76D087E1B9FDDEE00EA44B5;
+			remoteInfo = CloseKeyboardButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76D087F1B9FDDEE00EA44B5 /* CloseKeyboardButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloseKeyboardButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76D08831B9FDDEE00EA44B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76D08841B9FDDEE00EA44B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C76D08861B9FDDEE00EA44B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C76D08891B9FDDEE00EA44B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76D088B1B9FDDEE00EA44B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C76D088E1B9FDDEE00EA44B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C76D08941B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseKeyboardButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76D08991B9FDDEE00EA44B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76D089A1B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseKeyboardButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76D087C1B9FDDEE00EA44B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76D08911B9FDDEE00EA44B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76D08761B9FDDEE00EA44B5 = {
+			isa = PBXGroup;
+			children = (
+				C76D08811B9FDDEE00EA44B5 /* CloseKeyboardButton */,
+				C76D08971B9FDDEE00EA44B5 /* CloseKeyboardButtonTests */,
+				C76D08801B9FDDEE00EA44B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76D08801B9FDDEE00EA44B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76D087F1B9FDDEE00EA44B5 /* CloseKeyboardButton.app */,
+				C76D08941B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76D08811B9FDDEE00EA44B5 /* CloseKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				C76D08841B9FDDEE00EA44B5 /* AppDelegate.swift */,
+				C76D08861B9FDDEE00EA44B5 /* ViewController.swift */,
+				C76D08881B9FDDEE00EA44B5 /* Main.storyboard */,
+				C76D088B1B9FDDEE00EA44B5 /* Images.xcassets */,
+				C76D088D1B9FDDEE00EA44B5 /* LaunchScreen.xib */,
+				C76D08821B9FDDEE00EA44B5 /* Supporting Files */,
+			);
+			path = CloseKeyboardButton;
+			sourceTree = "<group>";
+		};
+		C76D08821B9FDDEE00EA44B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76D08831B9FDDEE00EA44B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76D08971B9FDDEE00EA44B5 /* CloseKeyboardButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C76D089A1B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.swift */,
+				C76D08981B9FDDEE00EA44B5 /* Supporting Files */,
+			);
+			path = CloseKeyboardButtonTests;
+			sourceTree = "<group>";
+		};
+		C76D08981B9FDDEE00EA44B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76D08991B9FDDEE00EA44B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76D087E1B9FDDEE00EA44B5 /* CloseKeyboardButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76D089E1B9FDDEE00EA44B5 /* Build configuration list for PBXNativeTarget "CloseKeyboardButton" */;
+			buildPhases = (
+				C76D087B1B9FDDEE00EA44B5 /* Sources */,
+				C76D087C1B9FDDEE00EA44B5 /* Frameworks */,
+				C76D087D1B9FDDEE00EA44B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloseKeyboardButton;
+			productName = CloseKeyboardButton;
+			productReference = C76D087F1B9FDDEE00EA44B5 /* CloseKeyboardButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C76D08931B9FDDEE00EA44B5 /* CloseKeyboardButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76D08A11B9FDDEE00EA44B5 /* Build configuration list for PBXNativeTarget "CloseKeyboardButtonTests" */;
+			buildPhases = (
+				C76D08901B9FDDEE00EA44B5 /* Sources */,
+				C76D08911B9FDDEE00EA44B5 /* Frameworks */,
+				C76D08921B9FDDEE00EA44B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76D08961B9FDDEE00EA44B5 /* PBXTargetDependency */,
+			);
+			name = CloseKeyboardButtonTests;
+			productName = CloseKeyboardButtonTests;
+			productReference = C76D08941B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76D08771B9FDDEE00EA44B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "3BR-T";
+				TargetAttributes = {
+					C76D087E1B9FDDEE00EA44B5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C76D08931B9FDDEE00EA44B5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C76D087E1B9FDDEE00EA44B5;
+					};
+				};
+			};
+			buildConfigurationList = C76D087A1B9FDDEE00EA44B5 /* Build configuration list for PBXProject "CloseKeyboardButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76D08761B9FDDEE00EA44B5;
+			productRefGroup = C76D08801B9FDDEE00EA44B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76D087E1B9FDDEE00EA44B5 /* CloseKeyboardButton */,
+				C76D08931B9FDDEE00EA44B5 /* CloseKeyboardButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76D087D1B9FDDEE00EA44B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76D088A1B9FDDEE00EA44B5 /* Main.storyboard in Resources */,
+				C76D088F1B9FDDEE00EA44B5 /* LaunchScreen.xib in Resources */,
+				C76D088C1B9FDDEE00EA44B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76D08921B9FDDEE00EA44B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76D087B1B9FDDEE00EA44B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76D08871B9FDDEE00EA44B5 /* ViewController.swift in Sources */,
+				C76D08851B9FDDEE00EA44B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76D08901B9FDDEE00EA44B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76D089B1B9FDDEE00EA44B5 /* CloseKeyboardButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C76D08961B9FDDEE00EA44B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76D087E1B9FDDEE00EA44B5 /* CloseKeyboardButton */;
+			targetProxy = C76D08951B9FDDEE00EA44B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76D08881B9FDDEE00EA44B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76D08891B9FDDEE00EA44B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C76D088D1B9FDDEE00EA44B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76D088E1B9FDDEE00EA44B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76D089C1B9FDDEE00EA44B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C76D089D1B9FDDEE00EA44B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76D089F1B9FDDEE00EA44B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloseKeyboardButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76D08A01B9FDDEE00EA44B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloseKeyboardButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C76D08A21B9FDDEE00EA44B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloseKeyboardButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseKeyboardButton.app/CloseKeyboardButton";
+			};
+			name = Debug;
+		};
+		C76D08A31B9FDDEE00EA44B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloseKeyboardButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloseKeyboardButton.app/CloseKeyboardButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76D087A1B9FDDEE00EA44B5 /* Build configuration list for PBXProject "CloseKeyboardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76D089C1B9FDDEE00EA44B5 /* Debug */,
+				C76D089D1B9FDDEE00EA44B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76D089E1B9FDDEE00EA44B5 /* Build configuration list for PBXNativeTarget "CloseKeyboardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76D089F1B9FDDEE00EA44B5 /* Debug */,
+				C76D08A01B9FDDEE00EA44B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76D08A11B9FDDEE00EA44B5 /* Build configuration list for PBXNativeTarget "CloseKeyboardButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76D08A21B9FDDEE00EA44B5 /* Debug */,
+				C76D08A31B9FDDEE00EA44B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76D08771B9FDDEE00EA44B5 /* Project object */;
+}
